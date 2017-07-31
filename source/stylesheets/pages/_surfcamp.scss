@@ -1,0 +1,30 @@
+// .container {
+//   width: 800px;
+// }
+.desc {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.desc-img {
+  flex: 0 0 50%;
+  img {
+    width: 100%;
+  }
+}
+.desc-text {
+  flex: 0 0 50%;
+  padding: 20px;
+}
+.container-yellow {
+  background-color: $yellow;
+  padding: 10px;
+  margin-bottom: 10px;
+  h1 {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+.form-inline > * {
+  margin: 0 10px;
+}

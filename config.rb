@@ -20,3 +20,7 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
+
+data.surfcamps.each do |key, hash|
+  proxy "/surfcamps/#{key}.html", "surfcamps.html", locals: { owner: key }, ignore: true
+end
